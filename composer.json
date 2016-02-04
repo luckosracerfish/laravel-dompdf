@@ -9,10 +9,17 @@
             "email": "barryvdh@gmail.com"
         }
     ],
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/luckosracerfish/dompdf-dompdf"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "5.2.*",
-        "dompdf/dompdf": "0.7.*@beta"
+        "dompdf/dompdf": "0.7.*"
     },
 
     "autoload": {
